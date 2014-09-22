@@ -1,0 +1,125 @@
+.container {
+	width: 70%;
+	margin: auto;
+	background: white;
+}
+
+.header {
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+}
+
+.header h1 {
+	position: absolute;
+	right: 50px;
+	bottom: 0;
+	font-family: cursive;
+	color: #DA4B83;
+}
+
+.header img {
+	margin-top: -23%;
+	margin-left: -4%;
+}
+
+body {
+	background: #DA4B83;
+}
+
+.nav-bar li {
+	display: inline-block;
+	padding: 2% 6%;
+	font-family: cursive;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav-bar {
+	border-bottom: 2px solid #DA4B83;
+	border-top: 2px solid #DA4B83;
+}
+
+.words {
+	width: 90%;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.metric {
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	z-index: 2;
+}
+
+.metric button {
+	background: white;
+	border: 2px dashed black;
+	width: 180px;
+}
+
+.metric-info {
+	display: none;
+	position: fixed;
+	background: white;
+	top: 40%;
+	left: 40%;
+	padding: 10px 30px;
+	z-index: 2;
+	border-radius: 5px;
+	border: 2px dashed salmon;
+}
+
+.grayout {
+	display: none;
+	background: rgba(160,160,160,0.9);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.poll {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	border: 2px solid #da4b83;
+}
+
+.poll input {
+	margin: 10px;
+}
+
+.poll fieldset {
+	border: 2px dashed #da4b83;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
+.winner {
+	display: none;
+	width: 100%;
+	margin: auto;
+	height: 500px;
+	text-align: center;
+}
+
+.winner img {
+	height: 100%;
+	margin: 10%;
+}
+
+.btn {
+	margin: 40px;
+	border: 2px dashed white;
+	background: #DA4B83;
+	padding: 5px 35px;
+	color: white;
+}

@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-refactoru-html' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'generator-refactoru-html', null ]
+5 verbose cache add name=undefined spec="generator-refactoru-html" args=["generator-refactoru-html",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-refactoru-html',
+6 verbose parsed url   path: 'generator-refactoru-html',
+6 verbose parsed url   href: 'generator-refactoru-html' }
+7 silly lockFile 15da9141-generator-refactoru-html generator-refactoru-html
+8 verbose lock generator-refactoru-html /Users/megan/.npm/15da9141-generator-refactoru-html.lock
+9 silly lockFile 15da9141-generator-refactoru-html generator-refactoru-html
+10 silly lockFile 15da9141-generator-refactoru-html generator-refactoru-html
+11 verbose addNamed [ 'generator-refactoru-html', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile b5e1c500-generator-refactoru-html generator-refactoru-html@
+14 verbose lock generator-refactoru-html@ /Users/megan/.npm/b5e1c500-generator-refactoru-html.lock
+15 silly addNameRange { name: 'generator-refactoru-html', range: '*', hasData: false }
+16 verbose request where is /generator-refactoru-html
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id bd3820cb6cdbfaf1
+19 verbose url raw /generator-refactoru-html
+20 verbose url resolving [ 'https://registry.npmjs.org/', './generator-refactoru-html' ]
+21 verbose url resolved https://registry.npmjs.org/generator-refactoru-html
+22 verbose request where is https://registry.npmjs.org/generator-refactoru-html
+23 info trying registry request attempt 1 at 22:50:52
+24 http GET https://registry.npmjs.org/generator-refactoru-html
+25 http 200 https://registry.npmjs.org/generator-refactoru-html
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sun, 21 Sep 2014 04:50:53 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"4MC7K19SK7WRFJ0E597II2WJG"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '13225',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1411275053.413598,VS0,VE327',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'generator-refactoru-html', range: '*', hasData: true }
+28 silly addNameRange versions [ 'generator-refactoru-html',
+28 silly addNameRange   [ '0.0.0',
+28 silly addNameRange     '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2' ] ]
+29 verbose addNamed [ 'generator-refactoru-html', '0.3.2' ]
+30 verbose addNamed [ '0.3.2', '0.3.2' ]
+31 silly lockFile 6e93fc95-generator-refactoru-html-0-3-2 generator-refactoru-html@0.3.2
+32 verbose lock generator-refactoru-html@0.3.2 /Users/megan/.npm/6e93fc95-generator-refactoru-html-0-3-2.lock
+33 silly lockFile 776ef991-nerator-refactoru-html-0-3-2-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz
+34 verbose lock https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz /Users/megan/.npm/776ef991-nerator-refactoru-html-0-3-2-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz',
+35 verbose addRemoteTarball   '162e3dbbe9b68b0c85829c52ac9cbc00b009844d' ]
+36 info retry fetch attempt 1 at 22:50:53
+37 verbose fetch to= /var/folders/2x/j9ddnr9d2fv3q_pd2ln8vybh0000gp/T/npm-7952-Kfu8Pjfv/registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz
+38 http GET https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz
+39 http 200 https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz
+40 silly lockFile 776ef991-nerator-refactoru-html-0-3-2-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz
+41 silly lockFile 776ef991-nerator-refactoru-html-0-3-2-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz
+42 silly lockFile 6e93fc95-generator-refactoru-html-0-3-2 generator-refactoru-html@0.3.2
+43 silly lockFile 6e93fc95-generator-refactoru-html-0-3-2 generator-refactoru-html@0.3.2
+44 silly lockFile b5e1c500-generator-refactoru-html generator-refactoru-html@
+45 silly lockFile b5e1c500-generator-refactoru-html generator-refactoru-html@
+46 silly resolved [ { name: 'generator-refactoru-html',
+46 silly resolved     version: '0.3.2',
+46 silly resolved     description: 'Yeoman generator for a simple HTML5 boilerplate.',
+46 silly resolved     license: 'ISC',
+46 silly resolved     main: 'app/index.js',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/metaraine/generator-refactoru-html' },
+46 silly resolved     author:
+46 silly resolved      { name: 'Raine Lourie',
+46 silly resolved        email: 'raine@refactoru.com',
+46 silly resolved        url: 'https://github.com/metaraine' },
+46 silly resolved     engines: { node: '>=0.10.0' },
+46 silly resolved     scripts: { test: 'mocha' },
+46 silly resolved     files: [ 'app' ],
+46 silly resolved     keywords: [ 'yeoman-generator', 'refactoru' ],
+46 silly resolved     dependencies: { 'yeoman-generator': '~0.16.0', chalk: '~0.4.0' },
+46 silly resolved     devDependencies: { mocha: '*' },
+46 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+46 silly resolved     bugs: { url: 'https://github.com/metaraine/generator-refactoru-html/issues' },
+46 silly resolved     homepage: 'https://github.com/metaraine/generator-refactoru-html',
+46 silly resolved     _id: 'generator-refactoru-html@0.3.2',
+46 silly resolved     _shasum: '162e3dbbe9b68b0c85829c52ac9cbc00b009844d',
+46 silly resolved     _from: 'generator-refactoru-html@',
+46 silly resolved     _npmVersion: '1.4.10',
+46 silly resolved     _npmUser: { name: 'raine', email: 'raineorshine@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '162e3dbbe9b68b0c85829c52ac9cbc00b009844d',
+46 silly resolved        tarball: 'http://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.3.2.tgz' } ]
+47 info install generator-refactoru-html@0.3.2 into /usr/local/lib
+48 info installOne generator-refactoru-html@0.3.2
+49 verbose lib/node_modules/generator-refactoru-html unbuild
+50 verbose tar unpack /Users/megan/.npm/generator-refactoru-html/0.3.2/package.tgz
+51 silly lockFile 857a117c-modules-generator-refactoru-html tar:///usr/local/lib/node_modules/generator-refactoru-html
+52 verbose lock tar:///usr/local/lib/node_modules/generator-refactoru-html /Users/megan/.npm/857a117c-modules-generator-refactoru-html.lock
+53 silly lockFile 0ab84b69-refactoru-html-0-3-2-package-tgz tar:///Users/megan/.npm/generator-refactoru-html/0.3.2/package.tgz
+54 verbose lock tar:///Users/megan/.npm/generator-refactoru-html/0.3.2/package.tgz /Users/megan/.npm/0ab84b69-refactoru-html-0-3-2-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-refactoru-html'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-refactoru-html']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/generator-refactoru-html',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/generator-refactoru-html',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 12.5.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-refactoru-html"
+60 error cwd /Users/megan/Desktop/projects/refactoru
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/generator-refactoru-html
+64 error fstream_path /usr/local/lib/node_modules/generator-refactoru-html
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-refactoru-html'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
